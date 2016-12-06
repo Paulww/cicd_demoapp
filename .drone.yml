@@ -7,7 +7,4 @@ build:
         image: python:2-alpine
         commands:
             - pip install -r requirements.txt
-            - python testing.py    build_starting:
-        image: python:2
-        commands:
-            - echo "Beginning new build"
+            - python testing.py
